@@ -30,14 +30,15 @@
     position: absolute;
     top: 100%;
     left: 0;
+    width: 65vw;
+}
+
+.container__button {
+    display: none;
 }
 
 .container__button:checked ~ .menu-list {
     display: block;
-}
-
-.menu-list {
-    width: 65vw;
 }
 
 .menu-list__title,
@@ -48,6 +49,7 @@
 
 .menu-list__title {
     color: var(--orange-color);
+    font-weight: 700;
 }
 
 .menu-list__link {
