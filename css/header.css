@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .header__menu-hamburger {
@@ -22,4 +23,37 @@
 
 .container__img {
     padding: 12px;
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.container__button:checked ~ .menu-list {
+    display: block;
+}
+
+.menu-list {
+    width: 65vw;
+}
+
+.menu-list__title,
+.menu-list__item {
+    background-color: var(--white);
+    padding: 1rem;
+}
+
+.menu-list__title {
+    color: var(--orange-color);
+}
+
+.menu-list__link {
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }

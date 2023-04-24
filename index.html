@@ -11,13 +11,41 @@
     <body>
         <header class="header">
             <div class="container">
-                <span class="header__menu-hamburger container__img"></span>
+                <input
+                    type="checkbox"
+                    name="menu"
+                    id="menu"
+                    class="container__button"
+                />
+                <label for="menu">
+                    <span class="header__menu-hamburger container__img"></span>
+                </label>
+                <ul class="menu-list">
+                    <li class="menu-list__title">Categorias</li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">Programação</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">Front-end</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">Infraestrutura</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">Business</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="menu-list__link">Design & ux</a>
+                    </li>
+                </ul>
+
                 <img
                     src="./img/Logo.svg"
                     alt="Logo AluraBooks"
                     class="container__img"
                 />
             </div>
+
             <div class="container">
                 <a href=""
                     ><img
@@ -25,12 +53,14 @@
                         class="container__img"
                         alt="Meus favoritos"
                 /></a>
+
                 <a href=""
                     ><img
                         src="./img/Compras.svg"
                         class="container__img"
                         alt="Minhas compras"
                 /></a>
+
                 <a href=""
                     ><img
                         src="./img/Usuário.svg"
