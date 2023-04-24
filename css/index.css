@@ -10,6 +10,9 @@
     --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --white: #ffffff;
     --main-font: 'Poppins';
+    --border-card: rgba(0, 0, 0, 0.25);
+    --blue-card: #002f52;
+    --black: #000000;
 }
 
 * {
