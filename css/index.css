@@ -1,0 +1,11 @@
+@import url('./header.css');
+:root {
+    --backgroud-color: #ebecee;
+    --color-button: #eb9b00;
+    --banner-color: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--backgroud-color);
+}

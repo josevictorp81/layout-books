@@ -1,0 +1,25 @@
+.header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-hamburger {
+    height: 24px;
+    width: 24px;
+    background-image: url('../img/Menu.svg');
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.container__img {
+    padding: 12px;
+}
