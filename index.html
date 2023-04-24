@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>AluraBooks</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
         <link rel="stylesheet" href="./css/index.css" />
     </head>
     <body>
@@ -81,5 +85,64 @@
                 placeholder="Qual será sua próxima leitura?"
             />
         </section>
+
+        <section class="carousel">
+            <h2 class="carousel__title">ÚLTIMOS LANÇAMENTOS</h2>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./img/ApacheKafka.png" alt="Apache Kafka" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="./img/Guia Front-end.png"
+                            alt=" Guia Front-end"
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/Javascript.png" alt="Javascript" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="./img/Liderança.png"
+                            alt="Liderança de Design"
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="./img/Portugol.png"
+                            alt="Lógica com Portugol"
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="./img/Acessibilidade.png"
+                            alt="Acessibilidade"
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="./img/Arquitetura.png"
+                            alt="Arquitetura de software"
+                        />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/Angular.png" alt="Angular" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/Gestão.png" alt="Gestão" />
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./js/swiper.js"></script>
     </body>
 </html>
