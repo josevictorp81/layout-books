@@ -59,3 +59,63 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.container__title {
+    display: none;
+}
+
+.options {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__title {
+        display: block;
+    }
+
+    .container__title,
+    .container__title-negrito {
+        font-size: 30px;
+        font-family: var(--second-font);
+    }
+
+    .container__title-negrito {
+        font-weight: 700;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .options__item {
+        padding: 0 1.5rem;
+    }
+
+    .options__link {
+        color: var(--black);
+    }
+
+    .container__img-transparent {
+        display: none;
+    }
+
+    .header__menu-hamburger {
+        display: none;
+    }
+
+    .options__button {
+        display: none;
+    }
+
+    .menu-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 33%;
+        width: 18vw;
+    }
+
+    .options__button:checked ~ .menu-list {
+        display: block;
+    }
+}
