@@ -57,6 +57,7 @@
 .description__title {
     color: var(--orange-color);
     font-weight: 700;
+    margin-top: 0.5rem;
 }
 
 .description__title-book {
@@ -74,6 +75,10 @@
 
 .description__img {
     height: 80%;
+}
+
+.author {
+    width: 145px;
 }
 
 .buttons__item {
