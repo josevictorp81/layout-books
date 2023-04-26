@@ -90,3 +90,23 @@
     color: var(--white);
     padding: 0.7rem 1.8rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .carousel__title {
+        font-size: 26px;
+        padding: 1.5rem 0 0.5rem 0;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+
+    .card {
+        width: 45%;
+        margin: 2rem auto;
+    }
+
+    .swiper-pagination {
+        margin-bottom: 3rem;
+    }
+}

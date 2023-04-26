@@ -23,5 +23,18 @@
 .topics__link {
     color: var(--white);
     background-color: var(--orange-color);
-    padding: 0.7rem;
+    padding: 0.9rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .topics__title {
+        font-size: 24px;
+    }
+
+    .topics__list {
+        width: 50%;
+        margin: 0 auto;
+    }
 }

@@ -33,5 +33,22 @@
     color: var(--white);
     background: url('../img/Pesquisa.svg') no-repeat;
     background-position: 0.4rem;
-    /* margin-left: 4rem; */
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 4rem;
+    }
+
+    .banner__title {
+        font-size: 38px;
+    }
+
+    .banner__search {
+        width: 50%;
+    }
+
+    .banner__search::placeholder {
+        background-position: 4rem;
+    }
 }
