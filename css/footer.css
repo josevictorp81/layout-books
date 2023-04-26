@@ -43,3 +43,10 @@ hr {
         color: var(--second-gray);
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .footer-list {
+        border-left: 1px solid var(--second-gray);
+        padding-left: 1rem;
+    }
+}

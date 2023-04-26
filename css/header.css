@@ -141,4 +141,12 @@
     .options {
         margin-right: auto;
     }
+
+    .menu-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 15%;
+        width: 18vw;
+    }
 }
