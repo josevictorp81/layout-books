@@ -6,3 +6,40 @@ hr {
     background-color: var(--white);
     padding: 1rem;
 }
+
+.footer-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 3rem 0;
+    }
+
+    .footer__title {
+        font-size: 24px;
+    }
+
+    .footer-list {
+        display: block;
+    }
+
+    .footer-list__title {
+        font-size: 14px;
+        color: var(--gray);
+    }
+
+    .footer-list__item {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .footer-list__link {
+        font-size: 14px;
+        color: var(--second-gray);
+    }
+}
